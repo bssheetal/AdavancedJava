@@ -24,6 +24,8 @@ public class InsertingData {
 
         SearchNumbers itsearch=new SearchNumbers();
         itsearch.iteratorsearch();
+        Sorting sortasc=new Sorting();
+        sortasc.comparatortosort();
     }
 
 
