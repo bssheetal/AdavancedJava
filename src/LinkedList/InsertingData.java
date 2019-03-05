@@ -22,6 +22,8 @@ public class InsertingData {
             }
         }
 
+        SearchNumbers itsearch=new SearchNumbers();
+        itsearch.iteratorsearch();
     }
 
 
