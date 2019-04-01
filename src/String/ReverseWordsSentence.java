@@ -1,14 +1,15 @@
 package String;
 
-
-
 public class ReverseWordsSentence {
 
     public static void main(String args[])
     {
         String sentence="Let's take LeetCode contest";
         ReverseWordsSentence callmethod=new ReverseWordsSentence();
-        System.out.println(callmethod.reverseWords(sentence));
+        //System.out.println(callmethod.reverseWords(sentence));
+        ReverseInteger callreverseinteger=new ReverseInteger();
+        int number=432;
+        System.out.println(callreverseinteger.reverse(number));
 
     }
 
