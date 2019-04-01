@@ -2,10 +2,10 @@ package String;
 
 public class ReverseInteger {
 
-    public int reverse(int x) {
+    public long reverse(long x) {
 
-        int rev=0;
-        int a;
+        long rev=0;
+        long a;
         while(x!=0)
         {
             a=x%10;

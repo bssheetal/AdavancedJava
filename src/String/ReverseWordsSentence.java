@@ -8,7 +8,7 @@ public class ReverseWordsSentence {
         ReverseWordsSentence callmethod=new ReverseWordsSentence();
         //System.out.println(callmethod.reverseWords(sentence));
         ReverseInteger callreverseinteger=new ReverseInteger();
-        int number=432;
+        long number=2147483647;
         System.out.println(callreverseinteger.reverse(number));
 
     }
