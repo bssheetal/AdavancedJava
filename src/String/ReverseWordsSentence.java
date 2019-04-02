@@ -9,7 +9,11 @@ public class ReverseWordsSentence {
         //System.out.println(callmethod.reverseWords(sentence));
         ReverseInteger callreverseinteger=new ReverseInteger();
         long number=2147483647;
-        System.out.println(callreverseinteger.reverse(number));
+        //System.out.println(callreverseinteger.reverse(number));
+        String Jewel = "aA";
+        String Stone = "zxer";
+        JewelsandStones findcount=new JewelsandStones();
+        System.out.println(findcount.numJewelsInStones(Jewel,Stone));
 
     }
 
@@ -19,6 +23,7 @@ public class ReverseWordsSentence {
         StringBuilder sb=new StringBuilder();
         for(String word:words)
         {
+
             sb.append(new StringBuilder(word).reverse()+" ");
 
         }
