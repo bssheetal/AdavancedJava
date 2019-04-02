@@ -6,8 +6,10 @@ public class Palindrome {
     public static void main(String[] args)
     {
        Palindrome checknoisPalindrome=new Palindrome();
-       int number=-121;
+       int number=19;
        System.out.println(checknoisPalindrome.isPalindrome(number));
+       PrimeNumber findprime=new PrimeNumber();
+       System.out.println(findprime.isPrimeno(number));
     }
 
     public boolean isPalindrome(int x) {
