@@ -10,6 +10,8 @@ public class Palindrome {
        System.out.println(checknoisPalindrome.isPalindrome(number));
        PrimeNumber findprime=new PrimeNumber();
        System.out.println(findprime.isPrimeno(number));
+       Fibonacci findtheno=new Fibonacci();
+       System.out.println(findtheno.Fibonacci(5));
     }
 
     public boolean isPalindrome(int x) {
