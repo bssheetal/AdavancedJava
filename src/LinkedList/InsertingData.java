@@ -30,3 +30,4 @@ public class InsertingData {
 
 
 }
+//Big O Notation is n i.e linear for search numbers for loop

@@ -8,6 +8,10 @@ public class InsertingFindDuplicate {
 
     public static void main(String [] args)
     {
+        MinimumIndexSumofTwoLists find=new MinimumIndexSumofTwoLists();
+        String[] list1= {"Shogun", "Tapioca Express", "Burger King", "KFC"};
+        String[] list2= {"KFC", "Shogun", "Burger King"};
+        System.out.println("result with least index is"+find.findRestaurant(list1,list2));
         HashMap<Integer,Integer>map=new HashMap<Integer,Integer>();
         map.put(1,2);
         map.put(2,3);
@@ -30,6 +34,7 @@ public class InsertingFindDuplicate {
           else{
               duplicates.put(i,1);
           }
+
 
        }
 

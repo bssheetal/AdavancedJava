@@ -14,3 +14,5 @@ public class PrimeNumber {
        return true;
     }
 }
+
+//Big O Notation is n i.e linear

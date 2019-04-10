@@ -42,3 +42,5 @@ public class Palindrome {
     }
 
 }
+
+//Big O notation is n i.e linear
