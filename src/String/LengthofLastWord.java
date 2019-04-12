@@ -7,6 +7,5 @@ public class LengthofLastWord {
         char[] letters=words[words.length-1].toCharArray();
         return letters.length;
 
-
     }
 }
