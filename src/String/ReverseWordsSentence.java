@@ -14,8 +14,11 @@ public class ReverseWordsSentence {
 //        String Stone = "zxer";
 //        JewelsandStones findcount=new JewelsandStones();
 //        System.out.println(findcount.numJewelsInStones(Jewel,Stone));
-        LengthofLastWord findlength=new LengthofLastWord();
-        System.out.println(findlength.lengthOfLastWord("Helloo"));
+//        LengthofLastWord findlength=new LengthofLastWord();
+//        System.out.println(findlength.lengthOfLastWord("Helloo"));
+        String sentence="Thi3s looks65 awesom4e!";
+        StringClean st=new StringClean();
+        st.cleanstring(sentence);
 
     }
 
