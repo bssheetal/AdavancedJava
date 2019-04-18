@@ -8,6 +8,9 @@ public class InsertingFindDuplicate {
 
     public static void main(String [] args)
     {
+        int[] sortedarr={1,1,2,2};
+        RemoveDuplicates rm=new RemoveDuplicates();
+        rm.removesuplicatesfunc(sortedarr);
         MinimumIndexSumofTwoLists find=new MinimumIndexSumofTwoLists();
         String[] list1= {"Shogun", "Tapioca Express", "Burger King", "KFC"};
         String[] list2= {"KFC", "Shogun", "Burger King"};
