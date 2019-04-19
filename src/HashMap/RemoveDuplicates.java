@@ -15,14 +15,15 @@ public class RemoveDuplicates {
 
         }
 
-        Iterator<Integer>itr=removeduplicates.iterator();
-        while (itr.hasNext())
-        {
-            System.out.println(itr.next());
-            numbers[idx++]=itr.next();
-
-        }
-     return idx;
+//        Iterator<Integer>itr=removeduplicates.iterator();
+////        while (itr.hasNext())
+////        {
+////            System.out.println(itr.next());
+////            numbers[idx++]=itr.next();
+////
+////        }
+////     return idx;
+        return removeduplicates.size();
     }
 
 
