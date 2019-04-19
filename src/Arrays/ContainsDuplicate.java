@@ -9,6 +9,8 @@ public class ContainsDuplicate {
           ContainsDuplicate findduplicate=new ContainsDuplicate();
           int[] numbers={20,10,2,2};
           System.out.println(findduplicate.containsDuplicate(numbers));
+          RemoveDuplicates rm=new RemoveDuplicates();
+          rm.removesuplicatesfunc(numbers);
     }
 
     public boolean containsDuplicate(int[] nums) {
