@@ -9,6 +9,8 @@ public class InsertingFindDuplicate {
     public static void main(String [] args)
     {
         int[] sortedarr={1,1,2,2};
+        RemoveElement dup=new RemoveElement();
+        System.out.println(dup.removeElement(sortedarr,4));
         RemoveDuplicates rm=new RemoveDuplicates();
         rm.removesuplicatesfunc(sortedarr);
         MinimumIndexSumofTwoLists find=new MinimumIndexSumofTwoLists();
