@@ -11,6 +11,8 @@ public class ContainsDuplicate {
           System.out.println(findduplicate.containsDuplicate(numbers));
           RemoveDuplicates rm=new RemoveDuplicates();
           rm.removesuplicatesfunc(numbers);
+        RemoveElement rmelement=new RemoveElement();
+        rmelement.removeElement(numbers,2);
     }
 
     public boolean containsDuplicate(int[] nums) {
