@@ -7,12 +7,14 @@ public class ContainsDuplicate {
     public static void main(String[] args)
     {
           ContainsDuplicate findduplicate=new ContainsDuplicate();
-          int[] numbers={20,10,2,2};
+          int[] numbers={1,3,5};
           System.out.println(findduplicate.containsDuplicate(numbers));
           RemoveDuplicates rm=new RemoveDuplicates();
           rm.removesuplicatesfunc(numbers);
         RemoveElement rmelement=new RemoveElement();
         rmelement.removeElement(numbers,2);
+        SearchInsertPosition ip=new SearchInsertPosition();
+        System.out.println(ip.searchInsert(numbers,4));
     }
 
     public boolean containsDuplicate(int[] nums) {
