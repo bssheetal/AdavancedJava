@@ -9,6 +9,9 @@ public class InsertingFindDuplicate {
     public static void main(String [] args)
     {
         int[] sortedarr={1,1,2,2};
+        String s="loveleetcode";
+        Uniquecharacter unch=new Uniquecharacter();
+        System.out.println(unch.firstUniqChar(s));
         RemoveElement dup=new RemoveElement();
         System.out.println(dup.removeElement(sortedarr,1));
         RemoveDuplicates rm=new RemoveDuplicates();
