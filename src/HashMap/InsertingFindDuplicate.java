@@ -8,6 +8,8 @@ public class InsertingFindDuplicate {
 
     public static void main(String [] args)
     {
+        SumofOddIntegers findsum=new SumofOddIntegers();
+        findsum.findsumofintegers();
         int[] sortedarr={1,1,2,2};
         String s="loveleetcode";
         Uniquecharacter unch=new Uniquecharacter();
