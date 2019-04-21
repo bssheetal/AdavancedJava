@@ -6,6 +6,8 @@ public class InsertingData {
 
     public static void main(String args[])
     {
+       Addtwolinkedlists adl=new Addtwolinkedlists();
+       adl.sumoftwolinkedlists();
         LinkedList<Integer> numbers =new LinkedList<Integer>();
         numbers.add(1);
         numbers.add(2);
