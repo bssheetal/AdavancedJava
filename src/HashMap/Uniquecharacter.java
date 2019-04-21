@@ -18,6 +18,8 @@ public class Uniquecharacter {
            else
            {
                map.put(ch,map.get(ch)+1);
+
+
            }
         }
        for(int i=0;i<s.length();i++)
