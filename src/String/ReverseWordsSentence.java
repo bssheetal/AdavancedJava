@@ -17,8 +17,10 @@ public class ReverseWordsSentence {
 //        LengthofLastWord findlength=new LengthofLastWord();
 //        System.out.println(findlength.lengthOfLastWord("Helloo"));
         String sentence="Thi3s looks65 awesom4e!";
-        StringClean st=new StringClean();
-        st.cleanstring(sentence);
+//        StringClean st=new StringClean();
+//        st.cleanstring(sentence);
+        Stringcleanthoughtporcessway dd=new Stringcleanthoughtporcessway();
+        dd.rmspcl(sentence);
 
     }
 
