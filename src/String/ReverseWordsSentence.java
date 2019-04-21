@@ -4,6 +4,8 @@ public class ReverseWordsSentence {
 
     public static void main(String args[])
     {
+        Putspclcharacterinbetween spcl=new Putspclcharacterinbetween();
+        spcl.putspecialcharacter();
         String sentence="Thi3s looks65 awesom4e!";
         ReverseWordsSentence callmethod=new ReverseWordsSentence();
         System.out.println(callmethod.reverseWords(sentence));
