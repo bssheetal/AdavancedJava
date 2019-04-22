@@ -6,7 +6,9 @@ public class ContainsDuplicate {
 
     public static void main(String[] args)
     {
-          ContainsDuplicate findduplicate=new ContainsDuplicate();
+        SumofTwoElements sumof=new SumofTwoElements();
+        sumof.sumofelemetsresultsintarget();
+        ContainsDuplicate findduplicate=new ContainsDuplicate();
           int[] numbers={1,3,5};
           System.out.println(findduplicate.containsDuplicate(numbers));
           RemoveDuplicates rm=new RemoveDuplicates();
