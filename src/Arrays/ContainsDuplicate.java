@@ -6,6 +6,8 @@ public class ContainsDuplicate {
 
     public static void main(String[] args)
     {
+        Biggestsumofsubarray findbigsum=new Biggestsumofsubarray();
+        findbigsum.findbiggestsum();
         SumofTwoElements sumof=new SumofTwoElements();
         sumof.sumofelemetsresultsintarget();
         ContainsDuplicate findduplicate=new ContainsDuplicate();
